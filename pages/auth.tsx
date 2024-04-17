@@ -16,7 +16,7 @@ const Auth = () => {
     setVariant((currentVariant) =>
       currentVariant === "login" ? "register" : "login"
     );
-  }, [variant]);
+  }, []);
 
   const login = useCallback(async () => {
     try {
